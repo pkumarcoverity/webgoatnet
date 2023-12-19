@@ -1,0 +1,12 @@
+capture:
+  build:
+    build-command: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\MSBuild\\Current\\Bin\\msbuild.exe" "D:\\a\\1\\s\\WebGoat.NET.sln" -t:rebuild
+analyze:
+  cov-analyze-args:
+    - --webapp-security
+    - --all
+    - --aggressiveness-level
+    - high
+    - --security
+    - --android-security
+    - --enable-audit-mode
