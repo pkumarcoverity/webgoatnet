@@ -1,0 +1,4 @@
+capture:
+  build:
+    clean-command: msbuild WebGoat.NET.sln /t:clean
+    build-command: msbuild WebGoat.NET.sln /t:build /p:TargetFrameworkVersion=v4.8
